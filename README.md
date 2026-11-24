@@ -1,16 +1,18 @@
 # MiniMind AI
 
-React + Vite arayüzü ve FastAPI + Ollama (`gemma3:4b`) tabanlı yerel belge analiz aracı.
+A local document analysis tool powered by a React + Vite frontend and a FastAPI + Ollama (`gemma3:4b`) backend.
 
-## Özellikler
-- **3 Sütunlu Koyu Arayüz:** Odak modu seçimi, canlı durum kartları, analiz geçmişi ve tek tıkla Markdown kopyalama.
-- **Yerel LLM İşleme:** FastAPI (`/api/analyze`) üzerinden `.txt` dosyalarını okuyup özet, önemli maddeler ve 5 çalışma sorusu üretir.
-- **Test Altyapısı:** Backend testleri için `pytest` desteği.
-## Arayüz Önizleme
+## Features
+
+- **Three-Column Dark Interface:** Focus mode selection, live status cards, analysis history, and one-click Markdown copying.
+- **Local LLM Processing:** Reads `.txt` files through the FastAPI (`/api/analyze`) endpoint and generates summaries, key points, and five study questions.
+- **Testing Infrastructure:** Includes `pytest` support for backend testing.
+
+## Interface Preview
 
 ![MiniMind AI Arayüzü](assets/arayuz.jpeg)
 
-## Proje Yapısı
+## Project Structure
 
 ```text
 MiniMind-AI/
@@ -44,7 +46,7 @@ MiniMind-AI/
 ├── .gitignore
 └── README.md
 
-## Çalıştırma
+## run
 
 ### Backend
 ```bash
